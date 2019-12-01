@@ -1,0 +1,14 @@
+c:\users\zeeshan ali ch\documents\visual studio 2013\Projects\Assignment 2\Assignment 2\obj\Debug\Assignment_2.createStudentProfile.resources
+c:\users\zeeshan ali ch\documents\visual studio 2013\Projects\Assignment 2\Assignment 2\obj\Debug\Assignment_2.Mainform.resources
+c:\users\zeeshan ali ch\documents\visual studio 2013\Projects\Assignment 2\Assignment 2\obj\Debug\Assignment_2.Properties.Resources.resources
+c:\users\zeeshan ali ch\documents\visual studio 2013\Projects\Assignment 2\Assignment 2\obj\Debug\Assignment_2.searchStudent.resources
+c:\users\zeeshan ali ch\documents\visual studio 2013\Projects\Assignment 2\Assignment 2\obj\Debug\Assignment 2.csproj.GenerateResource.Cache
+c:\users\zeeshan ali ch\documents\visual studio 2013\Projects\Assignment 2\Assignment 2\bin\Debug\Assignment 2.exe.config
+c:\users\zeeshan ali ch\documents\visual studio 2013\Projects\Assignment 2\Assignment 2\bin\Debug\Assignment 2.exe
+c:\users\zeeshan ali ch\documents\visual studio 2013\Projects\Assignment 2\Assignment 2\bin\Debug\Assignment 2.pdb
+c:\users\zeeshan ali ch\documents\visual studio 2013\Projects\Assignment 2\Assignment 2\obj\Debug\Assignment 2.exe
+c:\users\zeeshan ali ch\documents\visual studio 2013\Projects\Assignment 2\Assignment 2\obj\Debug\Assignment 2.pdb
+c:\users\zeeshan ali ch\documents\visual studio 2013\Projects\Assignment 2\Assignment 2\obj\Debug\Assignment 2.csprojResolveAssemblyReference.cache
+c:\users\zeeshan ali ch\documents\visual studio 2013\Projects\Assignment 2\Assignment 2\obj\Debug\Assignment_2.deleteStudentRecord.resources
+c:\users\zeeshan ali ch\documents\visual studio 2013\Projects\Assignment 2\Assignment 2\obj\Debug\Assignment_2.markAttendance.resources
+c:\users\zeeshan ali ch\documents\visual studio 2013\Projects\Assignment 2\Assignment 2\obj\Debug\Assignment_2.searchById.resources
