@@ -62,6 +62,12 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="mark.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="mark.Designer.cs">
+      <DependentUpon>mark.cs</DependentUpon>
+    </Compile>
     <Compile Include="markAttendance.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -70,17 +76,41 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="searchAll.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="searchAll.Designer.cs">
+      <DependentUpon>searchAll.cs</DependentUpon>
+    </Compile>
     <Compile Include="searchById.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="searchById.Designer.cs">
       <DependentUpon>searchById.cs</DependentUpon>
     </Compile>
+    <Compile Include="searchByName.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="searchByName.Designer.cs">
+      <DependentUpon>searchByName.cs</DependentUpon>
+    </Compile>
     <Compile Include="searchStudent.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="searchStudent.Designer.cs">
       <DependentUpon>searchStudent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="topThree.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="topThree.Designer.cs">
+      <DependentUpon>topThree.cs</DependentUpon>
+    </Compile>
+    <Compile Include="viewAttendance.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="viewAttendance.Designer.cs">
+      <DependentUpon>viewAttendance.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="createStudentProfile.resx">
       <DependentUpon>createStudentProfile.cs</DependentUpon>
@@ -90,6 +120,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="mark.resx">
+      <DependentUpon>mark.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="markAttendance.resx">
       <DependentUpon>markAttendance.cs</DependentUpon>
@@ -103,11 +136,23 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="searchAll.resx">
+      <DependentUpon>searchAll.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="searchById.resx">
       <DependentUpon>searchById.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="searchByName.resx">
+      <DependentUpon>searchByName.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="searchStudent.resx">
       <DependentUpon>searchStudent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="topThree.resx">
+      <DependentUpon>topThree.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="viewAttendance.resx">
+      <DependentUpon>viewAttendance.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

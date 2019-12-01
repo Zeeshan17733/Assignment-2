@@ -38,29 +38,30 @@ namespace Assignment_2
             {
                 if (all[i] == Sid.Text)
                 {
-                    //Console.WriteLine("Id already exists");
+                    MessageBox.Show("Id already exists");
+                    break;
                 }
                 else
                 {
-
-
                     name = Sname.Text;
                     id = Sid.Text;
                     dept = dep.Text;
                     university = uni.Text;
-                    semester = sem.Text;
+                    semester = sem.SelectedIndex.ToString();
                     cgpa = Cgpa.Text;
                     status = "NA";
                     using (StreamWriter s = File.AppendText("C://Users//Zeeshan Ali Ch//Desktop//data.txt"))
                     {
                         s.WriteLine(id);
                         s.WriteLine(name);
-                        s.WriteLine(sem);
-                        s.WriteLine(Cgpa);
-                        s.WriteLine(dep);
-                        s.WriteLine(uni);
+                        s.WriteLine(semester);
+                        s.WriteLine(cgpa);
+                        s.WriteLine(dept);
+                        s.WriteLine(university);
                         s.WriteLine(status);
                     }
+                    MessageBox.Show("Updated");
+                    break;
                 }
             }
 

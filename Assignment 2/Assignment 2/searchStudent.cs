@@ -46,7 +46,15 @@ namespace Assignment_2
         private void button2_Click(object sender, EventArgs e)
         {
             this.Hide();
-            
+            searchByName n = new searchByName();
+            n.Show();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            searchAll s = new searchAll();
+            s.Show();
         }
     }
 }

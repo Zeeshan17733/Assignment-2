@@ -32,6 +32,7 @@
             this.BCK = new System.Windows.Forms.Button();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.Ext = new System.Windows.Forms.Button();
+            this.del = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -70,11 +71,22 @@
             this.Ext.UseVisualStyleBackColor = true;
             this.Ext.Click += new System.EventHandler(this.Ext_Click);
             // 
+            // del
+            // 
+            this.del.Location = new System.Drawing.Point(165, 265);
+            this.del.Name = "del";
+            this.del.Size = new System.Drawing.Size(75, 23);
+            this.del.TabIndex = 4;
+            this.del.Text = "Delete";
+            this.del.UseVisualStyleBackColor = true;
+            this.del.Click += new System.EventHandler(this.del_Click);
+            // 
             // deleteStudentRecord
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(461, 315);
+            this.Controls.Add(this.del);
             this.Controls.Add(this.Ext);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.BCK);
@@ -92,5 +104,6 @@
         private System.Windows.Forms.Button BCK;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Button Ext;
+        private System.Windows.Forms.Button del;
     }
 }

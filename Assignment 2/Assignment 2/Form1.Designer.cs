@@ -34,6 +34,7 @@
             this.MSA = new System.Windows.Forms.Button();
             this.VA = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // CSP
@@ -68,7 +69,7 @@
             // 
             // MSA
             // 
-            this.MSA.Location = new System.Drawing.Point(154, 183);
+            this.MSA.Location = new System.Drawing.Point(154, 219);
             this.MSA.Name = "MSA";
             this.MSA.Size = new System.Drawing.Size(139, 23);
             this.MSA.TabIndex = 4;
@@ -78,16 +79,17 @@
             // 
             // VA
             // 
-            this.VA.Location = new System.Drawing.Point(154, 225);
+            this.VA.Location = new System.Drawing.Point(154, 257);
             this.VA.Name = "VA";
             this.VA.Size = new System.Drawing.Size(139, 23);
             this.VA.TabIndex = 5;
             this.VA.Text = "View Attendance";
             this.VA.UseVisualStyleBackColor = true;
+            this.VA.Click += new System.EventHandler(this.VA_Click);
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(363, 267);
+            this.button1.Location = new System.Drawing.Point(374, 280);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 6;
@@ -95,9 +97,20 @@
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(154, 181);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(139, 23);
+            this.button2.TabIndex = 7;
+            this.button2.Text = "List top three";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
             // Mainform
             // 
             this.ClientSize = new System.Drawing.Size(461, 315);
+            this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.VA);
             this.Controls.Add(this.MSA);
@@ -120,6 +133,7 @@
         private System.Windows.Forms.Button MSA;
         private System.Windows.Forms.Button VA;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button2;
     }
 }
 

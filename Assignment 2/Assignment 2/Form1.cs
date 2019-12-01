@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-
+using System.IO;
 namespace Assignment_2
 {
     public partial class Mainform : Form
@@ -52,6 +52,19 @@ namespace Assignment_2
             this.Hide();
             markAttendance m = new markAttendance();
             m.Show();
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            topThree t = new topThree();
+            t.Show();
+       
+        }
+
+        private void VA_Click(object sender, EventArgs e)
+        {
 
         }
 
